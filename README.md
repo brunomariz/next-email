@@ -8,29 +8,29 @@ These should be placed in a .env.local file, along with the email service id and
 
 All of the component's utilities are in the `app/_components/ContactUs` folder and `app/api/route.ts` file. You need create this api route in your own project for the component to work, since it is called in the `sendEmail` function on the `ContactUs.tsx` component file.
 
-### Features
+## :sparkles: Features
 
-#### Security
+- ### :shield: Security
 
 The Next.js Route Handleers guarantee client browsers won't get access to your email API authentication keys. 
 
-#### Contact form
+- ### :writing_hand: Contact form
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/e16c375f-357c-4dcd-a82a-13e207f8d113)
 
-#### Thank you message
+- ### :white_check_mark: Thank you message
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/dbc16c8d-567b-4643-bef8-ef04a91a3a61)
 
-#### Loading indicator
+- ### :clock1: Loading indicator
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/a6c04b41-f4b6-4061-9741-6c998ae93b84)
 
-#### Limit number of emails by period of time
+- ### :stopwatch: Limit number of emails by period of time
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/f3fe416d-1969-40fc-ac9c-bbcfe7e93a91)
 
-#### Error message (on API error)
+- ### :no_entry: Error message (on API error)
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/8b4c898b-ca5e-49ec-9365-b960191efd3b)
 
