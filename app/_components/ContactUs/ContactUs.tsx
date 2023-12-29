@@ -61,7 +61,7 @@ export const ContactUs = () => {
         } else {
           // Only update state, not timestamp
           console.log("Error sending email");
-          setSent({ ...sent, state: SentStateOptions.WAITING });
+          setSent({ ...sent, state: SentStateOptions.ERROR });
         }
       });
   };
