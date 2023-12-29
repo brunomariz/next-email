@@ -2,7 +2,7 @@
 
 This project contains a React component along with its corresponding Next.js Route Handler for making an API call to the email service.
 
-The service used in this project is Email.js. For this to work, you must enable "Allow EmailJS API for non-browser applications." and "Use Private Key (recommended)" on Account > Security > API Settings.
+The service used in this project is Email.js. For this to work, you must enable "Allow EmailJS API for non-browser applications." and "Use Private Key (recommended)" on Account > Security > API Settings. The private key will appear in Account > General > API Keys.
 
 These should be placed in a .env.local file, along with the email service id and the email template id, as demonstrated in the [.env.local.demo](/.env.local.demo) file.
 
