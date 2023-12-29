@@ -1,0 +1,9 @@
+.animDelay0 {
+    animation-delay: 0;
+}
+.animDelay250 {
+    animation-delay: 250ms;
+}
+.animDelay500 {
+    animation-delay: 500ms;
+}
