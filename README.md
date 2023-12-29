@@ -14,17 +14,17 @@ All of the component's utilities are in the `app/_components/ContactUs` folder a
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/e16c375f-357c-4dcd-a82a-13e207f8d113)
 
-#### Loading indicator
-
-![image](https://github.com/brunomariz/next-email/assets/48870924/f3fe416d-1969-40fc-ac9c-bbcfe7e93a91)
-
 #### Thank you message
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/dbc16c8d-567b-4643-bef8-ef04a91a3a61)
 
-####
+#### Loading indicator
 
 ![image](https://github.com/brunomariz/next-email/assets/48870924/a6c04b41-f4b6-4061-9741-6c998ae93b84)
+
+#### Limit number of emails by period of time
+
+![image](https://github.com/brunomariz/next-email/assets/48870924/f3fe416d-1969-40fc-ac9c-bbcfe7e93a91)
 
 #### Error message (on API error)
 
