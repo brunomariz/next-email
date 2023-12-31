@@ -12,7 +12,7 @@ All of the component's utilities are in the `app/_components/ContactUs` folder a
 
 - ### 🛡️ Security
 
-The Next.js Route Handleers guarantee client browsers won't get access to your email API authentication keys. 
+The Next.js Route Handlers guarantee client browsers won't get access to your email API authentication keys. 
 
 - ### ✍️ Contact form
 
