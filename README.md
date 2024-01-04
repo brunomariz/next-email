@@ -8,7 +8,7 @@ These should be placed in a .env.local file, along with the email service id and
 
 All of the component's utilities are in the `app/_components/ContactUs` folder and `app/api/route.ts` file. You need create this api route in your own project for the component to work, since it is called in the `sendEmail` function on the `ContactUs.tsx` component file.
 
-This project uses the Axios, Tailwind and EmailJs libraries.
+This project uses the Axios library for sending messages to the EmailJS API, and Tailwind for styles.
 
 ## ✨ Features
 
