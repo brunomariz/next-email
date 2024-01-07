@@ -115,7 +115,7 @@ export const ContactUs = () => {
               <input
                 className="mb-4 hidden"
                 type="text"
-                name="extra_variable"
+                name="business_name"
                 value={"Business Name"}
               />
               {/* Actual user form inputs */}
