@@ -2,19 +2,15 @@
 
 This project contains a React component along with its corresponding Next.js Route Handler for making an API call to the email service.
 
-The service used in this project is [Email.js](https://www.emailjs.com/). For this to work, you must enable "Allow EmailJS API for non-browser applications." and "Use Private Key (recommended)" on Account > Security > API Settings. The private key will appear in Account > General > API Keys.
+The services availiable in this project are [Email.js](https://www.emailjs.com/) and [Mailjet](https://www.mailjet.com/).
 
-These should be placed in a .env.local file, along with the email service id and the email template id, as demonstrated in the [.env.local.demo](/.env.local.demo) file.
-
-All of the component's utilities are in the `app/_components/ContactUs` folder and `app/api/route.ts` file. You need create this api route in your own project for the component to work, since it is called in the `sendEmail` function on the `ContactUs.tsx` component file.
-
-This project uses the Axios library for sending messages to the EmailJS API, and Tailwind for styles.
+All of the component's utilities are in the `app/_components/ContactUs` folder and `app/api` folder. You need create the api route you want in your own project for the component to work, since it is called in the `sendEmail` function on the `ContactUs.tsx` component file. The `sendMail` function should also be updated to call the correct api route.
 
 ## ✨ Features
 
 - ### 🛡️ Security
 
-The Next.js Route Handlers guarantee client browsers won't get access to your email API authentication keys. 
+The Next.js Route Handlers guarantee client browsers won't get access to your email API authentication keys.
 
 - ### ✍️ Contact form
 
@@ -41,6 +37,18 @@ The Next.js Route Handlers guarantee client browsers won't get access to your em
 Add extra variables easily, such as the business name with `extra_variables` hiddend form input
 
 ![Untitled](https://github.com/brunomariz/next-email/assets/48870924/9677826d-91cb-4b31-b956-d9e0b4282866)
+
+## Mailjet
+
+This service uses axios to call the Mailjet API directly, so it needs less configuration (no template and service ID like EmailJS). Plus, in the time of the making of this project, Mailjet's free tier allows for 6000 emails per month, while EmailJS only allows 200.
+
+## EmailJS
+
+For this service to work, you must enable "Allow EmailJS API for non-browser applications." and "Use Private Key (recommended)" on Account > Security > API Settings. The private key will appear in Account > General > API Keys.
+
+These should be placed in a .env.local file, along with the email service id and the email template id, as demonstrated in the [.env.local.demo](/.env.local.demo) file.
+
+This project uses the Axios library for sending messages to the EmailJS API, and Tailwind for styles.
 
 # Running the demo locally
 
