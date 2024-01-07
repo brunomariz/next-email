@@ -16,8 +16,8 @@ export async function POST(request: Request) {
     Messages: [
       {
         From: {
-          Email: "webtests.brunomariz@gmail.com",
-          Name: "No Reply | Website Contact",
+          Email: process.env.MAILJET_FROM_EMAIL,
+          Name: process.env.MAILJET_FROM_NAME,
         },
         To: [
           {
